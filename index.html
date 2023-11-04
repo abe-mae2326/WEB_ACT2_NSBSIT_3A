@@ -4,24 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Activity 2 | Travel</title>
+    <title>Activity 2 | Museo</title>
 
     <!--=============== CSS ===============-->
     <link
       rel="stylesheet"
-      href="C:\Users\cheri\OneDrive\Documents\try\css\styles.css"
+      href="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\saavedra_javascript\dayaon_css\style.css"
     />
 
     <!--=============== FONT ===============-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-
-    <!--=============== SWIPER CSS ===============-->
-    <link
-      rel="stylesheet"
-      href="C:\Users\cheri\OneDrive\Documents\try\css\swiper-bundle.min.css"
     />
 
     <!--=============== BOXICON ===============-->
@@ -39,79 +33,57 @@
       <div class="navigation">
         <div class="navigation-items">
           <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Explore</a>
-          <a href="#">Gallery</a>
-          <a href="#">Contact</a>
-          <a href="#" class="navigation-items"></a>
-          <i class="bx bx-moon change-theme" id="theme-button"></i>
+          <a href="#about">About</a>
+          <a href="#contact_">Contact</a>
         </div>
       </div>
     </header>
 
     <!--=============== HOME ===============-->
 
-    <section class="home">
-      <video
-        class="video-slide active"
-        src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\1.mp4"
-        autoplay
-        muted
-        loop
-      ></video>
-      <video
-        class="video-slide"
-        src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\2.mp4"
-        autoplay
-        muted
-        loop
-      ></video>
-      <video
-        class="video-slide"
-        src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\3.mp4"
-        autoplay
-        muted
-        loop
-      ></video>
-      <video
-        class="video-slide"
-        src=""C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\4.mp4"
-        autoplay
-        muted
-        loop
-      ></video>
-      <video
-        class="video-slide"
-        src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\5.mp4"
-        autoplay
-        muted
-        loop
-      ></video>
+    <section class="home" id="home_">
+      <video class="video-slide active" src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\1.mp4" id="national" autoplay muted loop></video>
+      <video class="video-slide" src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\2.mp4" id="ayala" autoplay muted loop></video>
+      <video class="video-slide" src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\3.mp4" id="mind" autoplay muted loop></video>
+      <video class="video-slide" src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\4.mp4" id="pintoart" autoplay muted loop></video>
+      <video class="video-slide" src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\5.mp4" id="artisland" autoplay muted loop></video>
+      
+      <!--=============== CONTENT ===============-->
+      
       <div class="content active">
-        <h1>National<br /><span>Museum</span></h1>
-        <a href="#">Read More</a>
+        <h1>National<br><span>Museum</span></h1>
+        <p>A captivating repository of the nation's rich cultural heritage and history, nestled in the heart of Manila. This architectural gem welcomes visitors with its grand neoclassical façade and luscious gardens. Once inside, you are transported into a world of captivating exhibits and historical treasures that resonate with the soul of the Philippines</p>
+        <a href="#about">Read More</a>
       </div>
       <div class="content">
-        <h1>Ayala<br /><span>Museum</span></h1>
-        <a href="#">Read More</a>
+        <h1>Ayala<br><span>Museum</span></h1>
+        <p>A cultural gem nestled in the heart of the Philippines, is a mesmerizing portal to the nation's diverse history and artistry. This architectural masterpiece seamlessly blends modernity and tradition, captivating the eye with its elegant design.</p>
+        <a href="#img_ayala">Read More</a>
       </div>
+
       <div class="content">
-        <h1>Mind<br /><span>Museum</span></h1>
-        <a href="#">Read More</a>
+        <h1>Mind<br><span>Museum</span></h1>
+        <p>A captivating haven of knowledge and wonder, where science and imagination converge to ignite the curiosity of visitors. Nestled in the heart of Manila, this architectural masterpiece stands as a testament to human ingenuity.</p>
+        <a href="#img_mind">Read More</a>
       </div>
+
       <div class="content">
-        <h1>Pinto<br /><span>Art Museum</span></h1>
-        <a href="#">Read More</a>
-      </div>
-      <div class="content">
-        <h1>Art<br /><span>in Island</span></h1>
-        <a href="#">Read More</a>
-      </div>
+        <h1>Pinto Art<br><span>Musem</span></h1>
+        <p>Nestled in the picturesque hills of Antipolo, is a breathtaking oasis of creativity and culture. This architectural masterpiece seamlessly blends nature and art, creating an inviting and visually captivating haven for art enthusiasts and nature lovers alike.</p>
+        <a href="#img_pinto">Read More</a>
+
+        <div class="content">
+          <h1>Art in<br><span>Island</span></h1>
+          <p>Art in Island is a captivating destination nestled in the heart of Quezon City, Philippines, where art comes to life. This unique interactive museum is a haven for art enthusiasts, offering visitors the chance to step inside and become a part of stunning 3D artworks. With its immersive and innovative exhibits, Art in Island promises an unforgettable experience that blurs the lines between reality and imagination.</p>
+          <a href="#img_artisland">Read More</a>
 
       <!--=============== MEDIA ===============-->
 
       <div class="media-icons">
-        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"
+        onclick="location.href='https://web.facebook.com'" 
+        ><i class="bx bxl-facebook"></i
+        ></a>
         <a href="#"><i class="bx bxl-instagram"></i></a>
         <a href="#"><i class="bx bxl-twitter"></i></a>
       </div>
