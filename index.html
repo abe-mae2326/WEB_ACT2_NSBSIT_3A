@@ -9,7 +9,7 @@
     <!--=============== CSS ===============-->
     <link
       rel="stylesheet"
-      href="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\saavedra_javascript\dayaon_css\style.css"
+      href="style.css"
     />
 
     <!--=============== FONT ===============-->
@@ -42,11 +42,11 @@
     <!--=============== HOME ===============-->
 
     <section class="home" id="home_">
-      <video class="video-slide active" src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\1.mp4" id="national" autoplay muted loop></video>
-      <video class="video-slide" src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\2.mp4" id="ayala" autoplay muted loop></video>
-      <video class="video-slide" src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\3.mp4" id="mind" autoplay muted loop></video>
-      <video class="video-slide" src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\4.mp4" id="pintoart" autoplay muted loop></video>
-      <video class="video-slide" src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\5.mp4" id="artisland" autoplay muted loop></video>
+      <video class="video-slide active" src="img/1.mp4" id="national" autoplay muted loop></video>
+      <video class="video-slide" src="img/2.mp4" id="ayala" autoplay muted loop></video>
+      <video class="video-slide" src="img/3.mp4" id="mind" autoplay muted loop></video>
+      <video class="video-slide" src="img/4.mp4" id="pintoart" autoplay muted loop></video>
+      <video class="video-slide" src="img/5.mp4" id="artisland" autoplay muted loop></video>
       
       <!--=============== CONTENT ===============-->
       
@@ -84,8 +84,16 @@
         onclick="location.href='https://web.facebook.com'" 
         ><i class="bx bxl-facebook"></i
         ></a>
-        <a href="#"><i class="bx bxl-instagram"></i></a>
-        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i 
+        onclick="location.href='https://www.instagram.com/'" 
+        class="bx bxl-instagram"></i>
+      </a>
+        <a href="#"><i 
+        onclick="location.href='https://www.twitter.com/'"
+        class="bx bxl-twitter"></i>
+      </a>
+
+      <!--=============== Slider Nav ===============-->
       </div>
       <div class="slider-navigation">
         <div class="nav-btn active"></div>
@@ -94,11 +102,118 @@
         <div class="nav-btn"></div>
         <div class="nav-btn"></div>
       </div>
+
+      <!--=============== About ===============-->
+
     </section>
+    <section class="about" id="about">
+      <div class="container">
+        <h3 class="section-title nat-title">National Museum</h3>
+        <div class="content">
+          <div class="image">
+            <img src="img/National-Museum.jpg" alt="">
+          </div>
+          <div class="text-box">
+            <h4 class="">Description</h4>
+            <p>a Trust of the Government, is an educational, scientific and cultural institution that acquires, documents, preserves, exhibits, and fosters scholarly study and public appreciation of works of art, specimens, and cultural and historical artifacts representative of the unique cultural heritage of the Filipino people and the natural history of the Philippines. It is mandated to establish, manage and develop museums comprising the National Museum Complex and the National Planetarium in Manila, as well as regional museums in key locations around the country.</p>
+              <br/>
+             <p>The National Museum of the Philippines manages and develops the national reference collections in the areas of cultural heritage (fine arts, anthropology, and archaeology) and natural history (botany, zoology, geology, and paleontology) and carries out permanent research programs in biodiversity, geological history, human origins, pre-historical and historical archaeology, maritime and underwater cultural heritage, ethnology, art history, and moveable and immoveable cultural properties.</p>
+          </div>
+        </div>
+        <div class="map" id="get_map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15444.851983069646!2d120.9812491!3d14.5869356!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca23d0569b6b%3A0xcfc70cbb93eae02a!2sNational%20Museum%20of%20Fine%20Arts!5e0!3m2!1sen!2sph!4v1698823677444!5m2!1sen!2sph" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="img_ayala">
+      <div class="container">
+        <h2 class="section-title nat-title">Ayala Museum</h2>
+        <div class="content">
+          <div class="image">
+            <img src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\img\ayala.jpg" alt="">
+          </div>
+          <div class="text-box">
+            <h3>Description</h3>
+            <p>As an artist with a vision, Fernando Zobel laid the foundation for the establishment of the Ayala Museum in April 1967 as a project of the Filipinas Foundation, Inc. (now Ayala Foundation, Inc). The museum was transferred to a new location in June 1974 along Makati Avenue in Makati City, Metro Manila (the current location of the Greenbelt Chapel). The museum opened with 63 dioramas made of hand-carved hardwood by woodcarvers from Paete, Laguna, presenting historical highlights in Philippine history, and a library and iconographic archives.</p>
+            <br/>
+            <p>Its current building, located in the corner of Makati Avenue and De La Rosa Street in the middle of the Makati Central Business District, was inaugurated as a gift of Ayala Corporation to the Filipino people in 2004.</p>
+            <br/>
+            <p>The Ayala Museum collection focuses on these main areas: archeological, ethnographic, historical, fine arts, numismatics, and ecclesiastical. These were acquired through the years from when the museum began as a museum of Philippine history and iconography.
+            </p>
+          </div>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15447.186292838143!2d121.0232446!3d14.5536226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca38467a88df%3A0xe2dafa4424794692!2sAyala%20Museum!5e0!3m2!1sen!2sph!4v1698830121701!5m2!1sen!2sph" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="img_mind">
+      <div class="container">
+        <h2 class="section-title nat-title">Mind Museum</h2>
+        <div class="content">
+          <div class="image">
+            <img src="img/mind.jpg" alt="">
+          </div>_3A\
+          <div class="text-box">
+            <h3>Description</h3>
+            <p>Bonifacio Art Foundation, Inc. started planning for the first world-class home for science in the country in January 2007. Continuing thanks to private corporations and individuals whose contributions made it possible for The Mind Museum to open its doors to the public on March 16, 2012.  </p>
+            <br>
+             <p> The Mind Museum's mission is to initiate and bolster science engagement in elevating aspects of individual, community and national life to inspire solutions to real-world problems. 
+            </p>
+          </div>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15447.28263465888!2d121.0456446!3d14.5522461!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8f0861733e7%3A0xf06093d1fcc13683!2sThe%20Mind%20Museum!5e0!3m2!1sen!2sph!4v1698830226288!5m2!1sen!2sph" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="img_pinto">
+      <div class="container">
+        <h2 class="section-title nat-title">Pinto Art Museum</h2>
+        <div class="content">
+          <div class="image">
+            <img src="img/pinto.jpg" alt="">
+          </div>
+          <div class="text-box">
+            <h3>Description</h3>
+            <p>Pintô International was founded in 2017 in New York City with a mission to promote the work of contemporary Filipino artists on an international stage. Created to support the mission of its parent institution — museum and non-profit foundation Pintô Art Museum in the Philippines — Pintô International is the New York-based entity that drives Pintô’s global exhibitions and programming.  The organization is committed to supporting the careers of pioneering contemporary artists of the region and to fostering global connoisseurship for their distinct artistic practices.</p>
+          </div>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15445.256567408753!2d121.1638229!3d14.5811671!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7560c9a4dc9%3A0x8278981e4ee4d779!2sPint%C3%B4%20Art%20Museum!5e0!3m2!1sen!2sph!4v1698830514960!5m2!1sen!2sph" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="img_artisland">
+      <div class="container">
+        <h2 class="section-title nat-title">Art in Island</h2>
+        <div class="content">
+          <div class="image">
+            <img src="img/ArtIsland.jpg" alt="">
+          </div>
+          <div class="text-box">
+            <h3>Description</h3>
+            <p>Art in Island, nestled in Cubao, Quezon City, is a sprawling 3D art museum spanning 3,800 square meters. Within its walls, visitors can explore over a hundred interactive artworks that cleverly blur the lines between reality and illusion. It's a place where art comes alive, inviting you to immerse yourself in a world of imagination. Whether you're walking on water, escaping from ferocious animals, or hanging off a skyscraper, each piece offers a captivating and unique experience. This museum is a playground for creativity, making it a perfect destination for families, friends, and solo adventurers. Step into a world where art knows no bounds, and your imagination is your only limit.</p>
+          </div>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.5862674738128!2d121.05276477842796!3d14.62262914011763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b795a0e244e5%3A0x6a1a7885c2c5109!2sArt%20In%20Island!5e0!3m2!1sen!2sph!4v1699068221698!5m2!1sen!2sph" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
 
     <script
       type="text/javascript"
-      src="C:\Users\cheri\OneDrive\Documents\GitHub\WEB_ACT2_NSBSIT_3A\saavedra_javascript\script.js"
+      src="script.js"
     ></script>
   </body>
 </html>
