@@ -60,3 +60,40 @@ btn_insta.addEventListener('click', function() {
   if (activeImage.id == "national") {
     window.open("https://www.instagram.com/natmuseumph/", "_blank")
   }
+  if(activeImage.id = "ayala"){
+    window.open("https://www.instagram.com/ayalamuseum/", "_blank")
+  }
+  if(activeImage.id = "mind"){
+    window.open("https://www.instagram.com/themindmuseum/", "_blank")
+  }
+});
+
+btn_twi.addEventListener('click', function() {
+  const activeImage = document.querySelector('.active');
+  if (activeImage.id == "national") {
+    window.open("https://twitter.com/natmuseumph", "_blank")
+  }
+  if(activeImage.id = "ayala"){
+    window.open("https://twitter.com/ayalamuseum", "_blank")
+  }
+  if(activeImage.id = "mind"){
+    window.open("https://twitter.com/themindmuseum", "_blank")
+  }
+});
+
+ScrollReveal({
+  //reset: true,
+  distance: '60px',
+  duration: 2500,
+  delay: 400
+});
+
+//target elements, and specify options to create reveal animations
+ScrollReveal().reveal('.main-title, .section-title', { delay: 500, origin: 'left' });
+ScrollReveal().reveal('.about .image, .info', { delay: 600, origin: 'bottom' });
+ScrollReveal().reveal('.ayala .image, .info', { delay: 600, origin: 'bottom' });
+ScrollReveal().reveal('.text-box', { delay: 700, origin: 'right' });
+ScrollReveal().reveal('.map', { delay: 700, origin: 'right' });
+ScrollReveal().reveal('.media-icons i', { delay: 500, origin: 'bottom', interval: 200 });
+ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 500, origin: 'top' });
+ScrollReveal().reveal('.media-info li', { delay: 500, origin: 'left', interval: 200 });
