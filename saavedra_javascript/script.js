@@ -70,10 +70,10 @@ btn_insta.addEventListener('click', function() {
     window.open("https://www.instagram.com/themindmuseum/", "_blank")
   }
   if(activeImage.id == "artin"){
-    window.open("https://www.instagram.com/artinisland/", "_blank")
+    window.open("https://www.instagram.com/pinto.art/", "_blank")
   }
   if(activeImage.id == "pintoart"){
-    window.open("https://www.instagram.com/pinto.art/", "_blank")
+    window.open("https://www.instagram.com/artinisland/", "_blank")
   }
 });
 
