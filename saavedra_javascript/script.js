@@ -88,6 +88,12 @@ btn_twi.addEventListener('click', function() {
   if(activeImage.id = "mind"){
     window.open("https://twitter.com/themindmuseum", "_blank")
   }
+  if(activeImage.id =="artin"){
+    window.open("https://twitter.com/pintoartmuseum", "_blank")
+  }
+  if(activeImage.id =="pinto"){
+    window.open("https://twitter.com/artinisland", "_blank")
+  }
 });
 
 ScrollReveal({
