@@ -53,6 +53,9 @@ button.addEventListener('click', function() {
   if(activeImage.id = "pintoart"){
     window.open("https://www.facebook.com/themindmuseum/", "_blank")
   }
+  if(activeImage.id == "artin"){
+    window.open("https://www.facebook.com/artinisland/", "_blank")
+  }
 });
 
 btn_insta.addEventListener('click', function() {
@@ -66,6 +69,12 @@ btn_insta.addEventListener('click', function() {
   if(activeImage.id = "mind"){
     window.open("https://www.instagram.com/themindmuseum/", "_blank")
   }
+  if(activeImage.id == "artin"){
+    window.open("https://www.instagram.com/pinto.art/", "_blank")
+  }
+  if(activeImage.id == "pintoart"){
+    window.open("https://www.instagram.com/artinisland/", "_blank")
+  }
 });
 
 btn_twi.addEventListener('click', function() {
@@ -78,6 +87,12 @@ btn_twi.addEventListener('click', function() {
   }
   if(activeImage.id = "mind"){
     window.open("https://twitter.com/themindmuseum", "_blank")
+  }
+  if(activeImage.id =="artin"){
+    window.open("https://twitter.com/pintoartmuseum", "_blank")
+  }
+  if(activeImage.id =="pinto"){
+    window.open("https://twitter.com/artinisland", "_blank")
   }
 });
 
