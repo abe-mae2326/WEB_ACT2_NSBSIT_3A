@@ -53,6 +53,9 @@ button.addEventListener('click', function() {
   if(activeImage.id = "pintoart"){
     window.open("https://www.facebook.com/themindmuseum/", "_blank")
   }
+  if(activeImage.id == "artin"){
+    window.open("https://www.facebook.com/artinisland/", "_blank")
+  }
 });
 
 btn_insta.addEventListener('click', function() {
