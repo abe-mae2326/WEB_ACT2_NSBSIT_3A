@@ -75,7 +75,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: #0f0f0f;
+  background: #ffffff;
 }
 
 .about .container {
@@ -648,7 +648,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(1, 1, 1, 0.5);
+    background: rgba(237, 237, 237, 0.5);
   }
 
   header .navigation .navigation-items a {
