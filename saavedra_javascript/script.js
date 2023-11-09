@@ -100,6 +100,19 @@ function sendEmail() {
 
   console.log(document.getElementById('email').value);
   console.log(document.getElementById('message').value);
+
+  //   Email.send({
+        //     Host: "smtp.elasticemail.com",
+        //     Port: "2525",
+        //     Username : "info.museo@gmail.com",
+        //     Password : "E46544F1EF6CE364AA5547E49404E70221EF",
+        //     To: document.getElementById('email').value,
+        //     From: "info.museo@gmail.com",
+        //     Subject: 'You have message on your web!',
+        //     Body : document.getElementById('message').value
+        // }).then(
+        //     message => alert(message)
+        // );
   
 }
 
