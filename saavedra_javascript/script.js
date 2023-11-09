@@ -96,6 +96,13 @@ btn_twi.addEventListener('click', function() {
   }
 });
 
+function sendEmail() {
+
+  console.log(document.getElementById('email').value);
+  console.log(document.getElementById('message').value);
+  
+}
+
 ScrollReveal({
   //reset: true,
   distance: '60px',
