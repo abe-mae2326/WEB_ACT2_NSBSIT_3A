@@ -75,7 +75,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: #164863;
+  background: #000000;
 }
 
 .about .container {
